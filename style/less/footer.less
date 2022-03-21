@@ -1,0 +1,28 @@
+footer {
+    height: 10vh;
+    background-color: orange;
+
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    padding-right: 10px;
+
+    i {
+        color: white;
+        font-size: 25px;
+        padding: 0px 10px;
+    }
+
+    a {
+        margin: 0;
+    }
+
+    img {
+        width: 100px;
+    }
+
+    @media screen and (max-width: @medium) {
+        flex-direction: column;
+        height: auto;
+    }
+}
